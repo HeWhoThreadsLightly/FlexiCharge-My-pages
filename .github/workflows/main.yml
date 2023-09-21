@@ -21,12 +21,12 @@ jobs:
     - name: Install dependencies
       run: |
         npm install -g create-react-app
-        cd flexicharge  # Navigate to your project directory
+        # cd flexicharge  # Navigate to your project directory
         npm install
       working-directory: ./FlexiCharge-My-pages
 
     - name: Run Tests
       run: |
-        cd flexicharge  # Navigate to your project directory
+        # cd flexicharge  # Navigate to your project directory
         npm test
       working-directory: ./FlexiCharge-My-pages
